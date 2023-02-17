@@ -1,0 +1,59 @@
+.melon-image{
+    height: 300px;
+    width: 300px;
+}
+#melon-list {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .card{
+    border: rgb(67, 87, 72) solid 1px;
+    margin: 2px 2px;
+    color: black;
+ }
+
+.btn {
+    color: white;
+    background-color: white;
+    border: solid white;
+   }
+.alert {
+    background-color:rgb(175, 59, 59);
+    border:rgb(175, 59, 59);
+    color: black;
+}
+.btn:active{
+    background-color: rgb(67, 87, 72);
+    color: white;
+
+}
+.btn:hover{
+    background-color: rgb(175, 59, 59);
+    color:rgb(244, 248, 242);
+    border: rgb(175, 59, 59);
+}
+body{
+    color: white;
+    background-color: rgb(165, 190, 165);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR79WVS4YuLmbwiJtG7Ynw9jiWP-f1-ZAGpuALYELiFLmesQt7rJgiAQq4aqgtnVf5mc8E&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 20px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(175, 59, 59);
+}
+a:hover{
+    
+}
+.navbar-nav{
+    color: white;
+}
+.melon-price{
+    padding-left: 40px;
+}
